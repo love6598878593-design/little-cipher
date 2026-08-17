@@ -17,7 +17,7 @@
     <nav aria-label="Main navigation">
       <a href="#products">Membership</a><a href="#how">How it works</a><a href="#faq">Questions</a>
     </nav>
-    <button class="cart-button start-trial" data-plan="Explorer" type="button">Start free trial</button>
+    <button class="cart-button start-trial" data-plan="Monthly Club" data-due="$0 today" type="button">Start free trial</button>
   </header>
 
   <main id="top">
@@ -27,7 +27,7 @@
         <h1>Raise a child<br>who loves to <em>think.</em></h1>
         <p class="lead">A private library of beautifully designed riddles that grows with your child. Fresh challenges arrive every week—ready to play on screen or print for the table.</p>
         <div class="hero-actions">
-          <button class="button primary start-trial" data-plan="Explorer" type="button">Start 14 days free</button>
+          <button class="button primary start-trial" data-plan="Monthly Club" data-due="$0 today" type="button">Start 14 days free</button>
           <button class="text-button" id="flipHint" type="button">Try the riddle →</button>
         </div>
         <ul class="trust"><li>Cancel anytime</li><li>No card for trial</li><li>US Letter + A4</li></ul>
@@ -47,20 +47,25 @@
     </section>
 
     <section class="products" id="products">
-      <div class="section-heading"><div><p class="eyebrow">Membership</p><h2>A richer question, every week.</h2></div><p>Every plan includes the growing riddle library,<br>printable editions, and age-calibrated recommendations.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Choose your way to play</p><h2>Begin with one pack.<br>Stay for the discoveries.</h2></div><p>Screen-ready and beautifully printable.<br>Made for parents, families, and thoughtful classrooms.</p></div>
       <div class="product-grid">
         <article class="product-card yellow">
-          <div class="product-art"><span>1</span><span>CH</span><b>ILD</b></div>
-          <div class="product-info"><div><small>ONE CHILD PROFILE</small><h3>Explorer</h3></div><p>Weekly challenges, the complete library, smart difficulty, and printable play.</p><footer><strong>$19<small>/mo</small></strong><button class="start-trial" data-plan="Explorer">Try free</button></footer></div>
+          <div class="product-art"><span>12</span><span>RID</span><b>DLES</b></div>
+          <div class="product-info"><div><small>ONE-TIME PURCHASE</small><h3>Starter Pack</h3></div><p>A polished first collection of 12 riddles, with US Letter and A4 print editions.</p><ul class="plan-features"><li>Instant digital access</li><li>Two difficulty levels</li><li>No subscription</li></ul><footer><strong>$9</strong><button class="start-trial" data-plan="Starter Pack" data-due="$9 once">Get the pack</button></footer></div>
         </article>
         <article class="product-card red bestseller">
-          <span class="badge">BEST FOR FAMILIES</span>
-          <div class="product-art"><span>UP</span><span>TO</span><b>4</b></div>
-          <div class="product-info"><div><small>UP TO FOUR CHILD PROFILES</small><h3>Family Salon</h3></div><p>Everything in Explorer, plus family game nights, shared hosting, and monthly progress notes.</p><footer><strong>$39<small>/mo</small></strong><button class="start-trial" data-plan="Family Salon">Try free</button></footer></div>
+          <span class="badge">MOST FLEXIBLE</span>
+          <div class="product-art"><span>NEW</span><span>EACH</span><b>FRI</b></div>
+          <div class="product-info"><div><small>MONTHLY · CANCEL ANYTIME</small><h3>Monthly Club</h3></div><p>Fresh weekly riddles, the complete library, printables, and smart recommendations.</p><ul class="plan-features"><li>New set every Friday</li><li>Age + difficulty paths</li><li>Parent progress notes</li></ul><footer><strong>$12<small>/mo</small></strong><button class="start-trial" data-plan="Monthly Club" data-due="$0 today">Try 14 days free</button></footer></div>
         </article>
         <article class="product-card blue">
-          <div class="product-art family"><span>FOUNDING</span><b>FAMILY</b><i>One thoughtful year</i></div>
-          <div class="product-info"><div><small>ANNUAL · LIMITED RELEASE</small><h3>Founding Family</h3></div><p>A full year of Family Salon, two private collections, and priority access to new formats.</p><footer><strong>$290<small>/yr</small></strong><button class="start-trial" data-plan="Founding Family">Join</button></footer></div>
+          <span class="badge">BEST VALUE</span>
+          <div class="product-art family"><span>ONE YEAR OF</span><b>CURIOUS</b><i>Up to four children</i></div>
+          <div class="product-info"><div><small>ANNUAL · FAMILY ACCESS</small><h3>Annual Family</h3></div><p>A thoughtful year of play, with separate paths for every young thinker at home.</p><ul class="plan-features"><li>Everything in Monthly Club</li><li>Four child profiles</li><li>Two months free</li></ul><footer><strong>$89<small>/yr</small></strong><button class="start-trial" data-plan="Annual Family" data-due="$0 today">Try 14 days free</button></footer></div>
+        </article>
+        <article class="product-card school">
+          <div class="product-art family"><span>FOR UP TO</span><b>30 MINDS</b><i>One classroom</i></div>
+          <div class="product-info"><div><small>ANNUAL · EDUCATOR LICENSE</small><h3>School License</h3></div><p>Classroom-ready collections, presentation mode, print rights, and teacher guidance.</p><ul class="plan-features"><li>Up to 30 learners</li><li>Classroom print license</li><li>Teacher activity notes</li></ul><footer><strong>$199<small>/yr</small></strong><button class="start-trial" data-plan="School License" data-due="$199 per year">Choose school</button></footer></div>
         </article>
       </div>
     </section>
@@ -74,28 +79,28 @@
       </ol>
     </section>
 
-    <section class="quote"><blockquote>“It feels less like homework and more like the best part of a very good dinner party.”</blockquote><p>— Amelia R., London · mother of two and Family Salon member</p></section>
+    <section class="quote"><blockquote>“It feels less like homework and more like the best part of a very good dinner party.”</blockquote><p>— Amelia R., London · mother of two and Annual Family member</p></section>
 
     <section class="faq" id="faq"><div><p class="eyebrow">Before you join</p><h2>A growing library,<br>without more screen time.</h2></div><div class="faq-list">
       <details open><summary>Is this an app or a printable product?</summary><p>Both. Members can play from the private library on any device or download beautifully typeset US Letter and A4 editions for screen-free play.</p></details>
-      <details><summary>What happens after the free trial?</summary><p>Your chosen membership begins after 14 days. We email you before the first charge, and you can cancel from your account at any time.</p></details>
+      <details><summary>What happens after the free trial?</summary><p>Monthly Club renews at $12 per month and Annual Family at $89 per year after 14 days. We email you before the first charge, and you can cancel from your parent account at any time. Starter Pack and School License do not include a trial.</p></details>
       <details><summary>Does the library adapt to each child?</summary><p>Yes. Recommendations use age, interests, completed sets, and parent feedback. Family Salon keeps a separate path for each child.</p></details>
     </div></section>
   </main>
 
-  <footer class="site-footer"><a class="brand" href="#top"><span>LC</span> LITTLE CIPHER</a><p>Clever play, beautifully made.</p><p>© 2026 Little Cipher Studio · Memberships renew automatically until cancelled</p></footer>
+  <footer class="site-footer"><a class="brand" href="#top"><span>LC</span> LITTLE CIPHER</a><p>Clever play, beautifully made.</p><p>© 2026 Little Cipher Studio · Subscription plans renew until cancelled</p></footer>
 
   <div class="overlay" id="overlay"></div>
   <section class="checkout-modal" id="checkoutModal" aria-hidden="true" aria-labelledby="checkoutTitle" inert>
     <button class="modal-close" id="closeCheckout" aria-label="Close checkout">×</button>
     <div id="checkoutFormStep">
-      <p class="eyebrow">14-day private trial</p><h2 id="checkoutTitle">Create your family account.</h2>
-      <p class="checkout-note">No card required. Choose a child profile and open the first collection today.</p>
+      <p class="eyebrow" id="checkoutEyebrow">Secure your place</p><h2 id="checkoutTitle">Create your parent account.</h2>
+      <p class="checkout-note" id="checkoutNote">Choose a plan and open the first collection today.</p>
       <form id="checkoutForm">
         <label>Parent email<input type="email" id="orderEmail" placeholder="name@example.com" required></label>
         <fieldset><legend>Child's age</legend><label class="pay-choice"><input type="radio" name="age" checked> 6–8</label><label class="pay-choice"><input type="radio" name="age"> 9–11</label></fieldset>
-        <div class="order-summary" id="orderSummary"><div><span>Selected plan</span><strong id="selectedPlan">Explorer</strong></div><div><span>Due today</span><strong>$0</strong></div></div>
-        <button class="button primary" type="submit">Open the private library</button>
+        <div class="order-summary" id="orderSummary"><div><span>Selected plan</span><strong id="selectedPlan">Monthly Club</strong></div><div><span>Payment</span><strong id="selectedDue">$0 today</strong></div></div>
+        <button class="button primary" id="checkoutSubmit" type="submit">Continue</button>
       </form>
     </div>
     <div class="checkout-success" id="checkoutSuccess" hidden>
