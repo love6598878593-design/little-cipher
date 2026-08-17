@@ -1,8 +1,9 @@
 window.LITTLE_CIPHER_STORE = {
   provider: "subscription-platform",
   plans: {
-    "Explorer": "",
-    "Family Salon": "",
-    "Founding Family": ""
+    "Starter Pack": "",
+    "Monthly Club": "",
+    "Annual Family": "",
+    "School License": ""
   }
 };
