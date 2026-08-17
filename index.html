@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Little Cipher creates beautifully designed printable riddles and logic games for curious children ages 6–11.">
+  <title>Little Cipher — Clever play, beautifully made</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">MEMBERS RECEIVE A NEW CURATED CHALLENGE EVERY FRIDAY</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="LC Little Cipher home"><span>LC</span> LITTLE CIPHER</a>
+    <nav aria-label="Main navigation">
+      <a href="#products">Membership</a><a href="#how">How it works</a><a href="#faq">Questions</a>
+    </nav>
+    <button class="cart-button start-trial" data-plan="Explorer" type="button">Start free trial</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">For curious minds, ages 6–11</p>
+        <h1>Raise a child<br>who loves to <em>think.</em></h1>
+        <p class="lead">A private library of beautifully designed riddles that grows with your child. Fresh challenges arrive every week—ready to play on screen or print for the table.</p>
+        <div class="hero-actions">
+          <button class="button primary start-trial" data-plan="Explorer" type="button">Start 14 days free</button>
+          <button class="text-button" id="flipHint" type="button">Try the riddle →</button>
+        </div>
+        <ul class="trust"><li>Cancel anytime</li><li>No card for trial</li><li>US Letter + A4</li></ul>
+      </div>
+      <div class="riddle-stage" aria-label="Interactive riddle card">
+        <span class="tape tape-one"></span><span class="tape tape-two"></span>
+        <button class="riddle-card" id="riddleCard" type="button" aria-pressed="false">
+          <span class="card-face card-front">
+            <small>THE SALON RIDDLE · WARM-UP</small>
+            <strong>What has many keys,<br>but opens no locks?</strong>
+            <span class="pencil-line">Turn the card for the answer</span>
+          </span>
+          <span class="card-face card-back"><small>THE ANSWER</small><strong>PIANO</strong><span>Keys for music, not for doors.</span></span>
+        </button>
+        <p class="scribble">a small leap of logic ↗</p>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="section-heading"><div><p class="eyebrow">Membership</p><h2>A richer question, every week.</h2></div><p>Every plan includes the growing riddle library,<br>printable editions, and age-calibrated recommendations.</p></div>
+      <div class="product-grid">
+        <article class="product-card yellow">
+          <div class="product-art"><span>1</span><span>CH</span><b>ILD</b></div>
+          <div class="product-info"><div><small>ONE CHILD PROFILE</small><h3>Explorer</h3></div><p>Weekly challenges, the complete library, smart difficulty, and printable play.</p><footer><strong>$19<small>/mo</small></strong><button class="start-trial" data-plan="Explorer">Try free</button></footer></div>
+        </article>
+        <article class="product-card red bestseller">
+          <span class="badge">BEST FOR FAMILIES</span>
+          <div class="product-art"><span>UP</span><span>TO</span><b>4</b></div>
+          <div class="product-info"><div><small>UP TO FOUR CHILD PROFILES</small><h3>Family Salon</h3></div><p>Everything in Explorer, plus family game nights, shared hosting, and monthly progress notes.</p><footer><strong>$39<small>/mo</small></strong><button class="start-trial" data-plan="Family Salon">Try free</button></footer></div>
+        </article>
+        <article class="product-card blue">
+          <div class="product-art family"><span>FOUNDING</span><b>FAMILY</b><i>One thoughtful year</i></div>
+          <div class="product-info"><div><small>ANNUAL · LIMITED RELEASE</small><h3>Founding Family</h3></div><p>A full year of Family Salon, two private collections, and priority access to new formats.</p><footer><strong>$290<small>/yr</small></strong><button class="start-trial" data-plan="Founding Family">Join</button></footer></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <div class="how-title"><p class="eyebrow">A membership that adapts</p><h2>Fresh thinking.<br>Quietly delivered.</h2></div>
+      <ol>
+        <li><span>ON DAY ONE</span><h3>Meet your child</h3><p>Choose an age, interests, and the kind of thinking they enjoy.</p></li>
+        <li><span>EVERY FRIDAY</span><h3>Open a new set</h3><p>A considered mix of wordplay, logic, observation, and lateral thinking.</p></li>
+        <li><span>AS THEY GROW</span><h3>Follow the progress</h3><p>See what delights them, where they persist, and what to try next.</p></li>
+      </ol>
+    </section>
+
+    <section class="quote"><blockquote>“It feels less like homework and more like the best part of a very good dinner party.”</blockquote><p>— Amelia R., London · mother of two and Family Salon member</p></section>
+
+    <section class="faq" id="faq"><div><p class="eyebrow">Before you join</p><h2>A growing library,<br>without more screen time.</h2></div><div class="faq-list">
+      <details open><summary>Is this an app or a printable product?</summary><p>Both. Members can play from the private library on any device or download beautifully typeset US Letter and A4 editions for screen-free play.</p></details>
+      <details><summary>What happens after the free trial?</summary><p>Your chosen membership begins after 14 days. We email you before the first charge, and you can cancel from your account at any time.</p></details>
+      <details><summary>Does the library adapt to each child?</summary><p>Yes. Recommendations use age, interests, completed sets, and parent feedback. Family Salon keeps a separate path for each child.</p></details>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#top"><span>LC</span> LITTLE CIPHER</a><p>Clever play, beautifully made.</p><p>© 2026 Little Cipher Studio · Memberships renew automatically until cancelled</p></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <section class="checkout-modal" id="checkoutModal" aria-hidden="true" aria-labelledby="checkoutTitle" inert>
+    <button class="modal-close" id="closeCheckout" aria-label="Close checkout">×</button>
+    <div id="checkoutFormStep">
+      <p class="eyebrow">14-day private trial</p><h2 id="checkoutTitle">Create your family account.</h2>
+      <p class="checkout-note">No card required. Choose a child profile and open the first collection today.</p>
+      <form id="checkoutForm">
+        <label>Parent email<input type="email" id="orderEmail" placeholder="name@example.com" required></label>
+        <fieldset><legend>Child's age</legend><label class="pay-choice"><input type="radio" name="age" checked> 6–8</label><label class="pay-choice"><input type="radio" name="age"> 9–11</label></fieldset>
+        <div class="order-summary" id="orderSummary"><div><span>Selected plan</span><strong id="selectedPlan">Explorer</strong></div><div><span>Due today</span><strong>$0</strong></div></div>
+        <button class="button primary" type="submit">Open the private library</button>
+      </form>
+    </div>
+    <div class="checkout-success" id="checkoutSuccess" hidden>
+      <div class="success-mark">✓</div><p class="eyebrow">WELCOME TO LITTLE CIPHER</p><h2>Your private library is open.</h2>
+      <p>This prototype creates the trial experience locally. The production version will connect account creation, subscriptions, and the member library.</p>
+      <a class="button primary" href="downloads/little-cipher-sampler.html" download>Open the first challenge</a>
+      <button class="text-button" id="continueShopping" type="button">Return home</button>
+    </div>
+  </section>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="store-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
